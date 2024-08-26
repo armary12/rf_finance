@@ -1,0 +1,15 @@
+trade_size: 10000
+features: ['Standardized_Adj Close', 'Standardized_RSI', 'Standardized_MACD Histogram_6_13_4', 'Standardized_MACD_Cross_6_13_4']
+window_size: 1
+reward_function: ['price', 'MACD_CROSS', 'RSI']
+macd_configs: [{'short_window': 6, 'long_window': 13, 'signal_window': 4}]
+stock_name: UL
+cash_balance: 13853.788280487066
+initial_cash_balance: 10000
+buy_fee: 0.0
+sell_fee: 0.0
+win_trades: 6
+loss_trades: 8
+total_trades: 14
+model_path: model/9_35_500000_0001114_50000/UL/UL.zip
+data_path: data/us/2023-2024/1d/UL.csv

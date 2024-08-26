@@ -1,0 +1,15 @@
+trade_size: 10000
+features: ['Standardized_Adj Close', 'Standardized_MACD Histogram_6_13_4', 'Standardized_MACD_Cross_6_13_4']
+window_size: 1
+reward_function: ['price', 'MACD_CROSS']
+macd_configs: [{'short_window': 6, 'long_window': 13, 'signal_window': 4}]
+stock_name: TTE
+cash_balance: 40.408382415771484
+initial_cash_balance: 10000
+buy_fee: 0.0
+sell_fee: 0.0
+win_trades: 6
+loss_trades: 11
+total_trades: 17
+model_path: model/combined_stock_20240814_194650.zip
+data_path: data/us/2023-2024/1d/TTE.csv
